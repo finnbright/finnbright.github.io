@@ -1,0 +1,81 @@
+.headd{
+    background:#b9899c;
+   color:black;
+   border: 2px solid rgb(171, 94, 94);
+}
+
+body{
+    background:  #c7a5a0;
+    min-height: 100vh;
+    position: relative;
+}
+footer{
+   position:absolute;
+   bottom:0;
+   background:rgb(247, 185, 1) ;
+   color:rgb(147, 31, 4);
+   border: 2px solid rgb(207, 142, 29);
+}
+main{
+    padding-bottom: 8.5rem;
+}
+.atag:hover{
+background: rgb(255, 208, 0);
+color:#d63e27;
+}
+*{
+    padding: 0px;
+    margin: 0px; 
+}
+.atag{
+background: rgb(247, 185, 1);
+border-radius: 40px 40px 40px 40px;
+text-decoration: none;
+font-family: 'Varela Round', sans-serif;
+color:#d63e27;
+font-weight:1000;
+transition: .5s all;
+font-size:.8em;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+
+h1{
+    font-family: 'Comfortaa', cursive;
+    font-size:2em;
+}
+
+.para{
+    font-size: 1.5em;
+    font-family: 'Varela Round', sans-serif;
+    border:2px rgb(0, 0, 0) solid;
+}
+
+@media screen and (min-width:500px){
+    a{
+        text-align: center;
+        width:120px;
+        margin-top: 10px;
+        
+    }
+    
+    .para{
+        margin:0 auto;
+        padding:10px;
+    }
+}
+.eyePhoto{
+    margin-right:20px;
+}
+.finn{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.7em;
+    
+}
+.Mephoto{
+    border: 2px solid black;
+}
+.container{
+    margin-bottom: 90px;
+}
